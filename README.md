@@ -1,19 +1,19 @@
-# James – AI Game Chat Assistant 🕹️🤖
+# James – AI Game Chat Assistant 
 
 **James** is a lightweight desktop chat assistant built with Python and PyQt5 that answers video game-related questions using local AI. Under the hood, James combines **LLaMA 3.2** via **Ollama**, **LangChain**, and **ChromaDB** to provide fast and context-aware responses using **Retrieval-Augmented Generation (RAG)**.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 AI answers powered by **LLaMA 3.2 (via Ollama)** and **LangChain**
-- 📚 Integrated **RAG pipeline** with vector embeddings stored in **ChromaDB**
-- 💬 Chat-style interface with readable user and AI message formatting
-- 🎨 Multiple built-in themes (Dark, Green, Grey, Light, Pink)
-- 🖥️ Built entirely in Python using **PyQt5** (no web browser needed)
-- 🔌 Modular design for easily swapping models, prompts, or database
+- AI answers powered by **LLaMA 3.2 (via Ollama)** and **LangChain**
+- Integrated **RAG pipeline** with vector embeddings stored in **ChromaDB**
+- Chat-style interface with readable user and AI message formatting
+- Multiple built-in themes (Dark, Green, Grey, Light, Pink)
+- Built entirely in Python using **PyQt5** (no web browser needed)
+- Modular design for easily swapping models, prompts, or database
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -55,5 +55,6 @@ The application is structured as follows:
 │   ├── grey.qss
 │   └── green.qss
 |____chromadb/             # ChromaDB vector store
+
 
 author: Aryel-[https://github.com/Aryel0]
