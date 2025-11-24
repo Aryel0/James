@@ -1,0 +1,7 @@
+langchain
+langchain-ollama
+langchain-chroma
+pandas
+pyqt5
+wikipedia 
+langchain-community 

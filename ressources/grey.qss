@@ -1,0 +1,70 @@
+/* Base styling */
+QWidget {
+    background-color: #2b2b2b;  /* Dark grey background */
+    color: #e0e0e0;             /* Light text */
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Group boxes */
+QGroupBox {
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    margin-top: 1ex;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 3px;
+    color: #bbbbbb;
+    font-weight: bold;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #444444;
+    border: none;
+    color: #f0f0f0;
+    padding: 6px;
+    border-radius: 4px;
+}
+QPushButton:hover {
+    background-color: #555555;
+}
+QPushButton:pressed {
+    background-color: #3a3a3a;
+    border: 1px solid #666666;
+}
+
+/* Input fields */
+QLineEdit, QComboBox, QTextEdit, QTextBrowser {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #5a5a5a;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* Menu bar */
+QMenuBar {
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+}
+QMenuBar::item {
+    background: transparent;
+    padding: 4px 10px;
+}
+QMenuBar::item:selected {
+    background-color: #505050;
+    color: #ffffff;
+}
+
+/* Tables */
+QTableWidget {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    gridline-color: #5a5a5a;
+}
+QTableWidget::item:selected {
+    background-color: #505050;
+    color: #ffffff;
+}
